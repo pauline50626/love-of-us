@@ -8,7 +8,7 @@
       margin: 0;
       padding: 0;
       font-family: 'Segoe UI', sans-serif;
-      background: url('https://i.imgur.com/lU0Zzdm.jpg') no-repeat center center/cover;
+      background: url('background.jpg') no-repeat center center/cover;
       color: white;
       text-align: center;
       height: 100vh;
@@ -79,11 +79,7 @@
   <div id="countdown"></div>
   <div id="message">我一直都在等你～ 🥺💗</div>
 
-  <audio autoplay loop>
-    <source src="https://dl.sndup.net/cpxp/LoveYou.mp3" type="audio/mpeg" />
-    Your browser does not support the audio element.
-  </audio>
-
+  
   <script>
     for (let i = 0; i < 20; i++) {
       let heart = document.createElement("div");
@@ -94,7 +90,7 @@
       document.body.appendChild(heart);
     }
 
-    const targetDate = new Date("2025-08-08T19:00:00");
+    const targetDate = new Date("2025-10-01T19:00:00");
 
     function updateCountdown() {
       const now = new Date();
